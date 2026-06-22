@@ -21,8 +21,8 @@ from telegram import BotCommandScopeChat, BotCommandScopeDefault
 # ══════════════════════════════════════════════
 TOKEN        = os.getenv("BOT_TOKEN", "8718700659:AAGg7NApw9Hm2V3tHHE8HRJeUtzhPvikeHY")
 ADMIN_ID     = int(os.getenv("ADMIN_ID", "8517530604"))
-BATTLE_CHANNEL  = "@onlinebattlee"
-BOOST_LINK      = "https://t.me/boost/onlinebattlee"
+BATTLE_CHANNEL  = "@manolisi_19"
+BOOST_LINK      = "https://t.me/boost/manolisi_19"
 start_number    = 1
 
 # Maksimal timer (daqiqada) — 1 oy = 30 kun
@@ -32,7 +32,8 @@ MAX_TIMER_MINUTES = 30 * 24 * 60  # 43200 daqiqa
 DATA_FILE = os.getenv("DATA_FILE", "data.json")
 
 REQUIRED_CHANNELS = [
-    ('@bedeutungslosM', 'Bosh-Homiy Kanal'),
+    ('@manolisi_ozmdan', 'Kanal'),
+    ('@bedeutungslosM', 'Kanal'),
     ('@onlinebattlee',  'Battle-Kanal'),
 ]
 
