@@ -34,7 +34,7 @@ DATA_FILE = os.getenv("DATA_FILE", "data.json")
 REQUIRED_CHANNELS = [
     ('@manolisi_ozmdan', 'Kanal'),
     ('@bedeutungslosM', 'Kanal'),
-    ('@onlinebattlee',  'Battle-Kanal'),
+    ('@manolisi_19',  'Battle-Kanal'),
 ]
 
 # ══════════════════════════════════════════════
