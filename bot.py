@@ -19,7 +19,7 @@ from telegram import BotCommandScopeChat, BotCommandScopeDefault
 # ══════════════════════════════════════════════
 #  SOZLAMALAR  (env yoki to'g'ridan-to'g'ri)
 # ══════════════════════════════════════════════
-TOKEN        = os.getenv("BOT_TOKEN", "8718700659:AAGg7NApw9Hm2V3tHHE8HRJeUtzhPvikeHY")
+TOKEN        = os.getenv("BOT_TOKEN", "8938744937:AAFFJlNywi3SGxhAMSooJqtHwXJUHvve41g")
 ADMIN_ID     = int(os.getenv("ADMIN_ID", "8517530604"))
 BATTLE_CHANNEL  = "@manolisi_19"
 BOOST_LINK      = "https://t.me/boost/manolisi_19"
@@ -32,9 +32,8 @@ MAX_TIMER_MINUTES = 30 * 24 * 60  # 43200 daqiqa
 DATA_FILE = os.getenv("DATA_FILE", "data.json")
 
 REQUIRED_CHANNELS = [
-    ('@manolisi_ozmdan', 'Kanal'),
     ('@bedeutungslosM', 'Kanal'),
-    ('@manolisi_19',  'Battle-Kanal'),
+    ('@anydevs',  'Battle-Kanal'),
 ]
 
 # ══════════════════════════════════════════════
